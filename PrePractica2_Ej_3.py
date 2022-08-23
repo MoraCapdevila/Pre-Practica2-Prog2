@@ -5,5 +5,11 @@
 
 
 #INICIO
-
+try:
+    num1 = int(input("Ingresar el primer numero: "))
+    num2 = int(input("Ingresar el segundo numero: "))
+    resultado = num1/num2
+    print(f'El resultado de la division es -> {resultado}')
+except ZeroDivisionError:
+    print("¡ERROR!.El divisor es cero")
 #FIN
