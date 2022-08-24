@@ -6,7 +6,7 @@
 lista = []
 lista_impar = []
 
-("Ingrese la cantidad de numeros de la lista")
+
 n = int(input("Ingrese la cantidad de numeros de la lista: "))
 
 for i in range(n) :
